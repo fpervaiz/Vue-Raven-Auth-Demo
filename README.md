@@ -1,8 +1,8 @@
 # Vue Raven Auth Demo
 
-### A minimal app demonstrating user authentication with UIS Raven via Firebase. Built with Vue.js.
+### A minimal app demonstrating user authentication with [UIS Raven](https://help.uis.cam.ac.uk/service/accounts-passwords/it-staff/raven) via Firebase. Built with Vue.js.
 
-### Link: [vue-raven-auth-demo-8d4d1.web.app](vue-raven-auth-demo-8d4d1.web.app)
+### Link: [vue-raven-auth-demo-8d4d1.web.app](https://vue-raven-auth-demo-8d4d1.web.app)
 
 ---
 
@@ -15,7 +15,7 @@ cd Vue-Raven-Auth-Demo
 npm i
 ```
 
-Create a new Firebase project at [https://console.firebase.google.com/](https://console.firebase.google.com/). Add a new web application, and replace the existing `firebaseConfig` in `main.js` with your new config. Then, Firebase console > Authentication > Sign-in method > enable the Google sign-in provider.
+Create a new Firebase project at [console.firebase.google.com](https://console.firebase.google.com/). Add a new web application, and replace the existing `firebaseConfig` in `main.js` with your new config. Then, Firebase console > Authentication > Sign-in method > enable the Google sign-in provider.
 
 ### Compiles and hot-reloads for development
 ```
