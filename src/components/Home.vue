@@ -58,7 +58,6 @@ export default {
         .auth()
         .signInWithPopup(this.authProvider)
         .then((result) => {
-          console.log(result.user);
           this.authed = true;
           this.displayName = result.user.displayName;
           this.email = result.user.email;
